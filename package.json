@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "grunt && next start",
+    "start": "next start",
     "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
@@ -44,10 +44,9 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
-    "date-fns": "^3.6.0",
+    "date-fns": "3.6.0",
     "embla-carousel-react": "8.5.1",
     "framer-motion": "latest",
-    "init": "^0.1.2",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
@@ -69,7 +68,6 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "gh-pages": "^6.3.0",
-    "grunt": "^1.6.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
